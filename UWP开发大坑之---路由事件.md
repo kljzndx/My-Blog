@@ -1,4 +1,4 @@
-最近在重写歌词编辑器。。。
+  最近在重写歌词编辑器。。。
 我需要在播放进度条被按下和弹起时触发一个我自己写的事件
 
 ```XAML
@@ -17,11 +17,10 @@
         }
 ```
 结果Run了之后，发现只有右键才能触发这按下和弹起的事件，对左键根本没反应   
-于是我就Google去了。。。Google到这个[帖子](http://stackoverflow.com/questions/14767020/pointerpressed-not-working-on-left-click)。。
+于是我就Google去了。。。Google到这个[帖子](http://stackoverflow.com/questions/14767020/pointerpressed-not-working-on-left-click)。。   
 
-TMD，原来是微软构建控件时设置了 `e.Handled = true;`
-解决方法是在后台订阅这些路由事件  
-
+TMD，原来是微软构建控件时设置了 `e.Handled = true;`  
+解决方法上面的帖子已经说了，在后台订阅这些路由事件
 ```C#
 Position_Slider.AddHandler(PointerPressedEvent, new PointerEventHandler((s, e) => UserChangeTime?.Invoke(this, EventArgs.Empty)), true);
 
