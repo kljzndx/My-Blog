@@ -1,6 +1,6 @@
 markdown: kramdown
 permalink: /:title.html
-url: https://blog.ixxoo.me
+# url: https://blog.ixxoo.me
 lsi: true
 rouge: true
 safe: true
