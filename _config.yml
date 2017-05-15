@@ -1,23 +1,38 @@
+# Site settings
+name: Less Or More
+email: luoyan35714@126.com
+author: Freud Kang
+resume_site: http://www.hifreud.com/Resume.io/
+github: https://github.com/luoyan35714/
+baseurl: "/kljzndx"
+description: Actually, less is more!
+meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
+motto: It's our wits that make us men.
+banner: 学而不思则罔，思而不学则殆。
+
+#permalink: /:categories/:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title/
+paginate: 10
+
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+
+github_username: luoyan35714
+highlighter: Pygments
+
+# Build settings
 markdown: kramdown
-permalink: /:title.html
-lsi: true
-rouge: true
-safe: true
 
-# presonal config
-title: 快乐就在你的心的博客
-feed: /atom.xml
-comments: disqus
+baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 
-author:
-  name: likebeta
-  nickname: likebeta
-  email: ixxoo.me@gmail.com
-  gmail: ixxoo.me@gmail.com
-  qqmail: http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=GnZzcX94f257WmtrNHl1dw
-  qqlist: http://list.qq.com/cgi-bin/qf_invite?id=eff06957927177ae5d491bb3c18e4a3c5fc328c95b6ae04f
-  site: https://kljzndx.github.io/kljzndx/
-
-seo:
-  keyword:
-  description:
+FB:
+  comments :
+    provider : duoshuo
+    duoshuo:
+        short_name : luoyan35714
+    disqus :
+        short_name : freudkang
+    # facebook :
+    #   appid : 123
+    #   num_posts: 5
+    #   width: 580
+    #   colorscheme: light
