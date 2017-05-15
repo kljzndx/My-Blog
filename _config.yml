@@ -1,6 +1,6 @@
 markdown: kramdown
 permalink: /:title.html
-url: /kljzndx
+baseurl: /kljzndx
 lsi: true
 rouge: true
 safe: true
