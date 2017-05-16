@@ -16,7 +16,7 @@ paginate: 10
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-github_username: luoyan35714
+github_username: kljzndx
 highlighter: Pygments
 
 # Build settings
