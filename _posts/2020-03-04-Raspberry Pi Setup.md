@@ -32,7 +32,7 @@ ok，闲话不多说，其实呢，装机这一块其实我到手后的第二天
 
 下完之后把压缩包解压一下，你会得到一个扩展名为 img 的镜像文件，这就是下一步要用到的文件了
 
-![Raspbian 系统下载](../blog-imgs/Rpi/system-download.png)
+![Raspbian 系统下载]({{'/blog-imgs/Rpi/system-download.png' | prepend:site.baseurl}})
 
 接着我们还要去下个烧录工具 balena Etcher 
 
@@ -42,7 +42,7 @@ ok，闲话不多说，其实呢，装机这一块其实我到手后的第二天
 
 关于怎么烧录也基本不用说，把TF卡插进读卡器，再把读卡器插进电脑，然后打开工具跟着提示做就行了
 
-![balena Etcher](../blog-imgs/Rpi/balenaEtcher.png)
+![balena Etcher]({{'/blog-imgs/Rpi/balenaEtcher.png' | prepend:site.baseurl}})
 
 这样就把系统烧录好了
 
@@ -56,7 +56,7 @@ ok，闲话不多说，其实呢，装机这一块其实我到手后的第二天
 
 在空白处按住shift键再点击鼠标右键，选择“在此处打开 PowerShell 窗口”
 
-![右键菜单](../blog-imgs/Rpi/right tap menu.png)
+![右键菜单]({{'/blog-imgs/Rpi/right-tap-menu.png' | prepend:site.baseurl}})
 
 输入以下命令
 
@@ -64,7 +64,7 @@ ok，闲话不多说，其实呢，装机这一块其实我到手后的第二天
 New-Item ssh
 ```
 
-![新建空文件命令](../blog-imgs/Rpi/new ssh.png)
+![新建空文件命令]({{'/blog-imgs/Rpi/new-ssh.png' | prepend:site.baseurl}})
 
 这样就算把 ssh远程连接 开启了
 
@@ -110,11 +110,11 @@ ok，到此为止 ssh 和 wifi 配置工作就已经完成了，现在可以安�
 
 首先打开设置，点击“应用”选项卡，接着再点击“可选功能”按钮
 
-![应用选项卡界面](../blog-imgs/Rpi/setup ssh step1.png)
+![应用选项卡界面]({{'/blog-imgs/Rpi/setup-ssh-step1.png' | prepend:site.baseurl}})
 
 然后点击“添加功能”，接着找到并选中 OpenSSH 服务器，再点击安装即可
 
-![可选功能界面](../blog-imgs/Rpi/setup ssh step2.png)
+![可选功能界面]({{'/blog-imgs/Rpi/setup-ssh-step2.png' | prepend:site.baseurl}})
 
 至此 ssh客户端 就安装好了
 
@@ -134,7 +134,7 @@ vnc 远程桌面工具配置
 Advanced IP Scanner: https://www.advanced-ip-scanner.com/cn/
 
 我是直接在光猫后台看的   
-![查看ip地址](../blog-imgs/Rpi/look ip address.png)
+![查看ip地址]({{'/blog-imgs/Rpi/look-ip-address.png' | prepend:site.baseurl}})
 
 这里的 192.168.1.41 就是我的树莓派的ip地址  
 知道ip地址后就可以用远程工具连接了
@@ -154,44 +154,44 @@ $ sudo raspi-config
 
 通过上下方向键选择 Interfacing Options，回车
 
-![启用vnc-步骤](../blog-imgs/Rpi/enable-vnc-step1.png)
+![启用vnc-步骤]({{'/blog-imgs/Rpi/enable-vnc-step1.png' | prepend:site.baseurl}})
 
 再选择 vnc 
 
-![启用vnc-步骤](../blog-imgs/Rpi/enable-vnc-step2.png)
+![启用vnc-步骤]({{'/blog-imgs/Rpi/enable-vnc-step2.png' | prepend:site.baseurl}})
 
 然后选择 Yes
 
-![启用vnc-步骤](../blog-imgs/Rpi/enable-vnc-step3.png)
+![启用vnc-步骤]({{'/blog-imgs/Rpi/enable-vnc-step3.png' | prepend:site.baseurl}})
 
 完成vnc开启后，我们还需要设置下分辨率，要不然等会用工具连接的时候会报错   
 选择 Advanced Options
 
-![分辨率调整](../blog-imgs/Rpi/fbl1.png)
+![分辨率调整]({{'/blog-imgs/Rpi/fbl1.png' | prepend:site.baseurl}})
 
 选择 Resolution
 
-![分辨率调整](../blog-imgs/Rpi/fbl2.png)
+![分辨率调整]({{'/blog-imgs/Rpi/fbl2.png' | prepend:site.baseurl}})
 
 选择 1280 x 720 60HZ
 
-![分辨率调整](../blog-imgs/Rpi/fbl3.png)
+![分辨率调整]({{'/blog-imgs/Rpi/fbl3.png' | prepend:site.baseurl}})
 
 回车选择之后他应该会提示需要重启，再按一下回车让他重启就行  
 如果没提示，请通过左右方向键选择 Finish 来退出设置界面
 
-![退出设置界面](../blog-imgs/Rpi/enable-vnc-step4.png)
+![退出设置界面]({{'/blog-imgs/Rpi/enable-vnc-step4.png' | prepend:site.baseurl}})
 
 然后输入 `sudo reboot` 再回车即可让树莓派重启
 
-![重启命令](../blog-imgs/Rpi/reboot.png)
+![重启命令]({{'/blog-imgs/Rpi/reboot.png' | prepend:site.baseurl}})
 
 ok，vnc server 已经配置好了  
 现在可以使用 vnc viewer 进行远程连接了
 
 打开vnc viewer 工具，按下 ctrl + N 会打开新建连接对话框
 
-![vnc 新建连接窗口](../blog-imgs/Rpi/vnc-viewer1.png)
+![vnc 新建连接窗口]({{'/blog-imgs/Rpi/vnc-viewer1.png' | prepend:site.baseurl}})
 
 填写下 vnc server 和 name 就行了   
 vnc server 里面写树莓派的ip地址  
@@ -203,12 +203,12 @@ name 就随便写了
 双击你刚才创建好的连接项目   
 这时候他就会开始连接树莓派，并且会弹出对话框让你输入用户名和密码
 
-![vnc 正在连接窗口](../blog-imgs/Rpi/vnc-viewer2.png)
+![vnc 正在连接窗口]({{'/blog-imgs/Rpi/vnc-viewer2.png' | prepend:site.baseurl}})
 
 输入 pi 和 raspberry ，然后点击ok  
 这样就进入树莓派的桌面环境了
 
-![树莓派桌面环境](../blog-imgs/Rpi/vnc-viewer3.png)
+![树莓派桌面环境]({{'/blog-imgs/Rpi/vnc-viewer3.png' | prepend:site.baseurl}})
 
 第一次进入桌面环境时他会弹出一个初始化向导，跟着提示走一遍就成了  
 到此 vnc 和 树莓派的桌面环境 就都配置好了
@@ -228,11 +228,11 @@ ssh-keygen -t rsa
 回车之后 他会先问你要保存在哪，然后会问你要不要设个密钥  
 我是都保持默认的，也就是一路回车过去的
 
-![密钥文件创建](../blog-imgs/Rpi/rsa-key-create.png)
+![密钥文件创建]({{'/blog-imgs/Rpi/rsa-key-create.png' | prepend:site.baseurl}})
 
 现在咱们打开保存位置，至少会看到两个文件
 
-![密钥文件保存位置](../blog-imgs/Rpi/key-save-location.png)
+![密钥文件保存位置]({{'/blog-imgs/Rpi/key-save-location.png' | prepend:site.baseurl}})
 
 其中带pub后缀的就是公钥，另外的那个就是私钥
 
@@ -271,7 +271,7 @@ $ mousepad authorized_keys
 
 打开之后先看看有没有 config 文件，有就直接用记事本打开，没有就用之前说过的 `New-Item` 命令新建一个，总之必须得有这个文件，然后他里面的内容得像这样
 
-![ssh 密钥配置](../blog-imgs/Rpi/setup-ssh-key.png)
+![ssh 密钥配置]({{'/blog-imgs/Rpi/setup-ssh-key.png' | prepend:site.baseurl}})
 
 ```
 Host raspberryPi
@@ -307,7 +307,7 @@ ssh 别名
 关于路径的提取其实有个小技巧，按住 shift 键再用鼠标右键点击文件   
 弹出的菜单中会有个“复制为路径”的选项的
 
-![复制为路径](../blog-imgs/Rpi/copy-path.png)
+![复制为路径]({{'/blog-imgs/Rpi/copy-path.png' | prepend:site.baseurl}})
 
 需要注意的是用这个复制的路径，路径的两头是带引号的，粘贴的时候别忘了把引号给删了
 
@@ -337,7 +337,7 @@ deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-f
 
 最终结果要像下面这样
 
-![更换apt软件源](../blog-imgs/Rpi/change-apt-source1.png)
+![更换apt软件源]({{'/blog-imgs/Rpi/change-apt-source1.png' | prepend:site.baseurl}})
 
 除了这个外还有一个系统软件源需要更换，再次输入以下命令
 
@@ -353,7 +353,7 @@ deb http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
 
 最终结果要像下面这样
 
-![更换apt软件源](../blog-imgs/Rpi/change-apt-source2.png)
+![更换apt软件源]({{'/blog-imgs/Rpi/change-apt-source2.png' | prepend:site.baseurl}})
 
 最后还需要在终端中输入以下命令来更新软件索引
 
@@ -361,7 +361,7 @@ deb http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
 $ sudo apt-get update
 ```
 
-![更换apt软件源](../blog-imgs/Rpi/change-apt-source3.png)
+![更换apt软件源]({{'/blog-imgs/Rpi/change-apt-source3.png' | prepend:site.baseurl}})
 
 至此软件源的更换就完成了
 
