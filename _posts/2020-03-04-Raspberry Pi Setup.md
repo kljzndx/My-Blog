@@ -31,9 +31,9 @@ ok，闲话不多说，其实呢，装机这一块其实我到手后的第二天
 
 系统镜像下载地址： https://www.raspberrypi.org/downloads/raspbian/
 
-下完之后把压缩包解压一下，你会得到一个扩展名为 img 的镜像文件，这就是下一步要用到的文件了
-
 ![Raspbian 系统下载]({{'/blog-imgs/Rpi/system-download.png' | prepend:site.baseurl}})
+
+下完之后把压缩包解压一下，你会得到一个扩展名为 img 的镜像文件，这就是下面要用到的文件了
 
 接着我们还要去下个烧录工具 balena Etcher 
 
