@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 树莓派装机日记
+title: 树莓派装机教程
 categories: 硬件
 tags: [树莓派, RaspberryPi]
 ---
