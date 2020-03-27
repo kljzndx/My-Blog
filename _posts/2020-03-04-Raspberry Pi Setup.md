@@ -28,36 +28,38 @@ ok，闲话不多说，其实呢，装机这一块其实我到手后的第二天
 系统下载和安装
 ===========================================================
 
-我用的是树莓派官方推荐系统 -- Raspbian ，所以我也将以该系统来演示
+我装的是树莓派官方推荐系统 -- Raspbian ，所以我也将以该系统来演示
 
-首先到 树莓派官网 下载系统镜像
+首先我们先去下载树莓派官方提供的**一键烧录工具**
 
-系统镜像下载地址： https://www.raspberrypi.org/downloads/raspbian/
+下载地址： [https://www.raspberrypi.org/downloads/](https://www.raspberrypi.org/downloads/)
 
-![Raspbian 系统下载]({{'/blog-imgs/Rpi/system-download.png' | prepend:site.baseurl}})
+![烧录工具下载]({{'/blog-imgs/Rpi/writetool-download.png' | prepend:site.baseurl}})
 
-下完之后把压缩包解压一下，你会得到一个扩展名为 img 的镜像文件，这就是下面要用到的文件了
+下载并且安装完了之后，这个时候其实就已经能够烧录了，因为他自带了镜像下载功能，但是你懂的，直连下载的话速度是很慢的  
+所以我们还需要下个镜像，同样是官方地址
 
-接着我们还要去下个烧录工具 balena Etcher 
+Respbian 下载地址： [https://www.raspberrypi.org/downloads/raspbian/](https://www.raspberrypi.org/downloads/raspbian/)
 
-下载地址： https://www.balena.io/etcher/
+![系统下载]({{'/blog-imgs/Rpi/system-download.png' | prepend:site.baseurl}})
 
-至于这工具怎么安装我就不说了，连这点动手能力都没有的话，我劝你还是别玩树莓派了吧
+下载并解压之后就得到了需要的 .img 镜像文件，此时我们再打开烧录工具
 
-关于怎么烧录也基本不用说，把TF卡插进读卡器，再把读卡器插进电脑，然后打开工具跟着提示做就行了
+![烧录工具]({{'/blog-imgs/Rpi/writetool.png' | prepend:site.baseurl}})
 
-![balena Etcher]({{'/blog-imgs/Rpi/balenaEtcher.png' | prepend:site.baseurl}})
+点击Choose OS，再点击 Use Custom，接着再选择镜像文件就行了  
+然后再点击 Choose SD Card 来选择TF卡，接着再点击 write 就完事了  
 
-这样就把系统烧录好了
+请坐和放宽等着烧录完成就行了
 
-注意：烧录完成后有可能会自动把你的卡弹出来，重新插一下TF卡或读卡器就行了
+> 注意：烧录完成后有可能会自动把你的卡弹出来，重新插一下TF卡或读卡器就行了
 
-这时候你会发现你的卡里有两个分区其中一个还读不出来，另外一个能读出来的分区是boot分区，也就是启动分区
+---------------------------------------------------
 
-我们将在这个分区的根目录下新建两个文件，一个是名为ssh的空文件来启用ssh远程连接，还有一个是wifi配置文件
+烧录完之后你会发现你的卡里有两个分区，并且其中一个还读不出来，另外一个能读出来的分区是boot分区，也就是启动分区    
+我们将在这个分区的根目录下新建两个文件，一个是名为ssh的空文件来启用ssh远程连接，还有一个是 wifi配置文件
 
-首先咱们来新建 ssh 文件
-
+首先咱们来新建 ssh 文件   
 在空白处按住shift键再点击鼠标右键，选择“在此处打开 PowerShell 窗口”
 
 ![右键菜单]({{'/blog-imgs/Rpi/right-tap-menu.png' | prepend:site.baseurl}})
