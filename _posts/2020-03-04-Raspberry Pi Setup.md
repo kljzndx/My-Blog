@@ -376,3 +376,12 @@ $ sudo apt-get dist-upgrade
 参考资料   
 https://mirrors.tuna.tsinghua.edu.cn/help/raspbian/
 
+给任务栏添加cpu状态显示器
+============================
+
+1. 右击任务栏空白区域，再点击“添加/删除面板项”
+2. 点击添加按钮，选择 “cpu 监视器” 和 “cpu temperature monitor”
+3. 选中 “cpu 监视器” 再点击首选项，勾选 “Show usage as percentage”，然后点击确定
+4. 用 ”向上“ 和 ”向下“ 按钮来调整位置
+
+![CPU状态显示器]({{'/blog-imgs/Rpi/cpu状态显示器.png' | prepend:site.baseurl}})
