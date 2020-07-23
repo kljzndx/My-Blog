@@ -343,13 +343,9 @@ $ sudo mousepad /etc/apt/sources.list
 在第一行开头加个井号，并把以下代码粘贴到最后一行
 
 ```
-deb http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib
-deb-src http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ buster main non-free contrib
+deb http://mirrors.tuna.tsinghua.edu.cn/raspberry-pi-os/raspbian/ buster main non-free contrib rpi
+#deb-src http://mirrors.tuna.tsinghua.edu.cn/raspberry-pi-os/raspbian/ buster main non-free contrib rpi
 ```
-
-最终结果要像下面这样
-
-![更换apt软件源]({{'/blog-imgs/Rpi/change-apt-source1.png' | prepend:site.baseurl}})
 
 除了这个外还有一个系统软件源需要更换，再次输入以下命令
 
@@ -363,17 +359,11 @@ $ sudo mousepad /etc/apt/sources.list.d/raspi.list
 deb http://mirrors.tuna.tsinghua.edu.cn/raspberrypi/ buster main ui
 ```
 
-最终结果要像下面这样
-
-![更换apt软件源]({{'/blog-imgs/Rpi/change-apt-source2.png' | prepend:site.baseurl}})
-
 最后还需要在终端中输入以下命令来更新软件索引
 
 ```bash
 $ sudo apt-get update
 ```
-
-![更换apt软件源]({{'/blog-imgs/Rpi/change-apt-source3.png' | prepend:site.baseurl}})
 
 至此软件源的更换就完成了
 
@@ -383,6 +373,6 @@ $ sudo apt-get update
 $ sudo apt-get dist-upgrade
 ```
 
-这个更换软件源的教程我是参考了下清华大学镜像站的文档的   
+参考资料   
 https://mirrors.tuna.tsinghua.edu.cn/help/raspbian/
 
