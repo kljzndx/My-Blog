@@ -253,7 +253,7 @@ key: value    # 注释内容
 {
   "strArray": ["item1", "item2", "item3"],
   "numArray": [1, 2, 3],
-  "objArray": [{"a": 1, "b": 2}， {"a": 1, "b": 2}，{"a": 1, "b": 2}]
+  "objArray": [{"a": 1, "b": 2}, {"a": 1, "b": 2}, {"a": 1, "b": 2}]
 }
 ```
 
