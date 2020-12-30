@@ -7,7 +7,7 @@ github: https://github.com/kljzndx
 baseurl: "/My-Blog"
 description: Actually, less is more!
 meta_description: 李继龙;个人博客;快乐就在你的心
-motto: It's our wits that make us men.
+#motto: It's our wits that make us men.
 banner: 快乐就在你的心
 
 #permalink: /:categories/:year/:month/:day/:title/
