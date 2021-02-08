@@ -158,32 +158,32 @@ $ sudo raspi-config
 
 通过上下方向键选择 Interfacing Options，回车
 
-![启用vnc-步骤]({{'/blog-imgs/Rpi/enable-vnc-step1.png' | prepend:site.baseurl}})
+![启用vnc-步骤1]({{'/blog-imgs/Rpi/enable-vnc-step1.png' | prepend:site.baseurl}})
 
 再选择 vnc 
 
-![启用vnc-步骤]({{'/blog-imgs/Rpi/enable-vnc-step2.png' | prepend:site.baseurl}})
+![启用vnc-步骤2]({{'/blog-imgs/Rpi/enable-vnc-step2.png' | prepend:site.baseurl}})
 
 然后选择 Yes
 
-![启用vnc-步骤]({{'/blog-imgs/Rpi/enable-vnc-step3.png' | prepend:site.baseurl}})
+![启用vnc-步骤3]({{'/blog-imgs/Rpi/enable-vnc-step3.png' | prepend:site.baseurl}})
 
 完成vnc开启后，我们还需要设置下虚拟分辨率，要不然等会用工具连接的时候会报错，原因是我们没有连接显示器
 
 选择 Advanced Options
 
-![分辨率调整]({{'/blog-imgs/Rpi/fbl1.png' | prepend:site.baseurl}})
+![分辨率调整-步骤1]({{'/blog-imgs/Rpi/fbl1.png' | prepend:site.baseurl}})
 
 选择 Resolution
 
-![分辨率调整]({{'/blog-imgs/Rpi/fbl2.png' | prepend:site.baseurl}})
+![分辨率调整-步骤2]({{'/blog-imgs/Rpi/fbl2.png' | prepend:site.baseurl}})
 
 以"DMT Mode"开头的选项就是虚拟模式，这里我们选择 1280 x 720 60HZ
 
 > 注意：如果你要连接显示器请把他改回 default 或者是不带DMT Mode的选项
 > 否则你的显示器会黑屏，看不到任何东西
 
-![分辨率调整]({{'/blog-imgs/Rpi/fbl3.png' | prepend:site.baseurl}})
+![分辨率调整-步骤3]({{'/blog-imgs/Rpi/fbl3.png' | prepend:site.baseurl}})
 
 回车选择之后他应该会提示需要重启，再按一下回车让他重启就行  
 如果没提示，请通过左右方向键选择 Finish 来退出设置界面
