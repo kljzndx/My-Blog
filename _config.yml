@@ -1,11 +1,11 @@
 # Site settings
-name: 快乐 就在你的心 的博客
+name: 快乐就在你的心 的个人博客
 email: kljzndx@outlook.com
 author: 李继龙
 #resume_site: http://www.hifreud.com/Resume.io/
 github: https://github.com/kljzndx
 baseurl: "/My-Blog"
-description: 
+description: 我的博客
 meta_description: 李继龙;个人博客;快乐就在你的心
 #motto: It's our wits that make us men.
 banner: 快乐就在你的心 的个人博客
