@@ -5,10 +5,10 @@ author: 李继龙
 #resume_site: http://www.hifreud.com/Resume.io/
 github: https://github.com/kljzndx
 baseurl: "/My-Blog"
-description: Actually, less is more!
+description: 
 meta_description: 李继龙;个人博客;快乐就在你的心
 #motto: It's our wits that make us men.
-banner: 快乐就在你的心
+banner: 快乐就在你的心 的个人博客
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
@@ -22,17 +22,17 @@ highlighter: rouge
 # Build settings
 markdown: kramdown
 
-baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
+# baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
 
-FB:
-  comments :
-    provider : duoshuo
-    duoshuo:
-        short_name : luoyan35714
-    disqus :
-        short_name : freudkang
-    # facebook :
-    #   appid : 123
-    #   num_posts: 5
-    #   width: 580
-    #   colorscheme: light
+# FB:
+#   comments :
+#     provider : duoshuo
+#     duoshuo:
+#         short_name : luoyan35714
+#     disqus :
+#         short_name : freudkang
+#     # facebook :
+#     #   appid : 123
+#     #   num_posts: 5
+#     #   width: 580
+#     #   colorscheme: light
