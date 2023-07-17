@@ -19,3 +19,4 @@ tags: [随便写写]
 3. [细说转折点和身体状况](https://kljzndx.github.io/My-Blog/2022/11/02/%E7%BB%86%E8%AF%B4%E8%BD%AC%E6%8A%98%E7%82%B9%E5%92%8C%E8%BA%AB%E4%BD%93%E7%8A%B6%E5%86%B5/)
 4. [细说家庭关系](https://kljzndx.github.io/My-Blog/2023/01/22/%E7%BB%86%E8%AF%B4%E5%AE%B6%E5%BA%AD%E5%85%B3%E7%B3%BB/)
 5. [心已死的家庭](https://kljzndx.github.io/My-Blog/2023/06/01/%E5%BF%83%E5%B7%B2%E6%AD%BB%E7%9A%84%E5%AE%B6%E5%BA%AD/)
+6. [百无聊赖的生活](https://kljzndx.github.io/My-Blog/2023/07/17/%E7%99%BE%E6%97%A0%E8%81%8A%E8%B5%96%E7%9A%84%E7%94%9F%E6%B4%BB/)
