@@ -15,7 +15,7 @@ tags: [随便写写]
 # 文章索引
 
 1. [我的自传](https://kljzndx.github.io/My-Blog/2021/07/07/autobiography/)
-2. [备份-请问有谁知道在哪里能定制辅助器械的](https://kljzndx.github.io/My-Blog/2022/10/12/%E5%A4%87%E4%BB%BD-%E8%AF%B7%E9%97%AE%E6%9C%89%E8%B0%81%E7%9F%A5%E9%81%93%E5%9C%A8%E5%93%AA%E9%87%8C%E8%83%BD%E5%AE%9A%E5%88%B6%E8%BE%85%E5%8A%A9%E5%99%A8%E6%A2%B0%E7%9A%84/)
+2. [简述身体情况和锻炼器材需求](https://kljzndx.github.io/My-Blog/2022/10/12/%E7%AE%80%E8%BF%B0%E8%BA%AB%E4%BD%93%E6%83%85%E5%86%B5%E5%92%8C%E9%94%BB%E7%82%BC%E5%99%A8%E6%9D%90%E9%9C%80%E6%B1%82/)
 3. [细说转折点和身体状况](https://kljzndx.github.io/My-Blog/2022/11/02/%E7%BB%86%E8%AF%B4%E8%BD%AC%E6%8A%98%E7%82%B9%E5%92%8C%E8%BA%AB%E4%BD%93%E7%8A%B6%E5%86%B5/)
 4. [细说家庭关系](https://kljzndx.github.io/My-Blog/2023/01/22/%E7%BB%86%E8%AF%B4%E5%AE%B6%E5%BA%AD%E5%85%B3%E7%B3%BB/)
 5. [心已死的家庭](https://kljzndx.github.io/My-Blog/2023/06/01/%E5%BF%83%E5%B7%B2%E6%AD%BB%E7%9A%84%E5%AE%B6%E5%BA%AD/)
