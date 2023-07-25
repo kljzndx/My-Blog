@@ -8,7 +8,7 @@ tags: [自传]
 * content
 {:toc}
 
-[总目录](https://kljzndx.github.io/My-Blog/2023/01/23/my-life-notes-index/)
+[返回总目录](https://kljzndx.github.io/My-Blog/2023/01/23/my-life-notes-index/)
 
 # 序言
 先来自我介绍一下吧，我叫李继龙，1998年生人，脑瘫患者，直到现在还有一个名副其实的称号—— 三无人员，哪三无呢，无学业（以及学历），无事业，无朋友（现实中）
@@ -328,3 +328,5 @@ tags: [自传]
 只愿来世能有个好身板
 
 2021年07月27日，李继龙 著
+
+[返回总目录](https://kljzndx.github.io/My-Blog/2023/01/23/my-life-notes-index/)
