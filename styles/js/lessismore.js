@@ -30,10 +30,11 @@
   		var images = $(".docs-content img");
   		if(images != undefined && images.length > 0){
   			for(var i=0; i< images.length;i++){
-  				var imgWidth = images[i].width;
-  				if( imgWidth >= 757 ){
-  					 images[i].width = 757;
-  				}
+  				// var imgWidth = images[i].width;
+  				// if( imgWidth >= 757 ){
+  				// 	 images[i].width = 757;
+  				// }
+          
   			}
   		}
   	}
